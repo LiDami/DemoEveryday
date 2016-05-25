@@ -1,12 +1,24 @@
 PODS:
   - Alamofire (3.4.0)
+  - CocoapodTest (0.0.1)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
+  - CocoapodTest (from `https://github.com/LiDami/DemoEveryday.git`)
+
+EXTERNAL SOURCES:
+  CocoapodTest:
+    :git: https://github.com/LiDami/DemoEveryday.git
+
+CHECKOUT OPTIONS:
+  CocoapodTest:
+    :commit: e5dddc6255468fbc9fa23fd628778b9d40076650
+    :git: https://github.com/LiDami/DemoEveryday.git
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  CocoapodTest: 82a51c0e9c510fdc763887cc81d9f8958fd94bb2
 
-PODFILE CHECKSUM: cf2987281459cff4af3dd17f97e843c3fdc16ecb
+PODFILE CHECKSUM: 1804efd383cd0118c6adfc11e7df077df9a71317
 
 COCOAPODS: 1.0.0
